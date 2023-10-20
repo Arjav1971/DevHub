@@ -5,7 +5,8 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
-
+import OurStore from './pages/OurStore';
+import Blog from './pages/Blog';
 function App() {
   return (
     <>
@@ -21,6 +22,8 @@ function App() {
           />
           <Route path="about" element={<Layout><About /></Layout>} />
           <Route path="contact" element={<Layout><Contact /></Layout>} />
+          <Route path="store" element={<Layout><OurStore /></Layout>} />
+          <Route path="blogs" element={<Layout><Blog/></Layout>} />
         </Routes>
       </BrowserRouter>
     </>

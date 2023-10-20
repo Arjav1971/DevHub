@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function BlogCard() {
   return (
-    <div className="col-3">
+    
         <div className='blog-card'>
             <div className='card-image'>
                 <img src="images/blog-1.jpg" className="img-fluid" alt="blog"/>
@@ -23,7 +23,7 @@ function BlogCard() {
 
         </div>
       
-    </div>
+   
   )
 }
 

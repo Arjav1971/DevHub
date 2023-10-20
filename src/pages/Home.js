@@ -197,9 +197,30 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
+      <section className='special-wrapper py-5 home-wrapper-2'>
+        <div className='container-xxl'>
+          <div className='row'>
+            <div className='col-12'>
+              <h3 className="section-heading">Special Products</h3>
+            </div>
+            <div className='row'>
+              <SpecialProduct/>
+              <SpecialProduct/>
+              <SpecialProduct/>
+              <SpecialProduct/>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
       <section className='famous-wrapper py-5 home-wrapper-2'>
         <div className='container-xxl'>
           <div className='row'>
+          <div className='col-12'>
+              <h3 className="section-heading">Our Popular Products</h3>
+            </div>
             <div className='col-3'>
               <div className='famous-card position-relative'>
                 <img src="images/famous15.jpg" className="img-fluid" alt="famous"/>
@@ -252,38 +273,6 @@ const Home = () => {
           
         </div>
       </section>
-      <section className='special-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
-          <div className='row'>
-            <div className='col-12'>
-              <h3 className="section-heading">Special Products</h3>
-            </div>
-            <div className='row'>
-              <SpecialProduct/>
-              <SpecialProduct/>
-              <SpecialProduct/>
-
-            </div>
-
-          </div>
-        </div>
-      </section>
-      <section className='popular-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
-          <div className='row'>
-            <div className='col-12'>
-              <h3 className="section-heading">Our Popular Products</h3>
-            </div>
-          </div>
-          <div className='row'>
-            
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-          </div>
-        </div>
-      </section>
       <section className='marque-wrapper py-5'>
         <div className='container-xxl'>
           <div className="row">
@@ -327,11 +316,22 @@ const Home = () => {
             <div className='col-12'>
               <h3 className="section-heading">Our Latest Blogs</h3>
             </div>
-           
+          </div>
+          <div className='row'>
+            <div className='col-3'>
               <BlogCard/>
+            </div>
+            <div className='col-3'>
               <BlogCard/>
+            </div>
+            <div className='col-3'>
               <BlogCard/>
+            </div>
+            <div className='col-3'>
               <BlogCard/>
+            </div>
+              
+              
           
 
           </div>
