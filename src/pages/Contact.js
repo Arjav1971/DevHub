@@ -42,18 +42,29 @@ const Contact = () => {
                   <h3 className='contact-title'>Get in touch with Us</h3>
                   <div>
                     <ul className='ps-0'>
-                      <li className='d-flex gap-15 align-items-center justify-content-center'>
+                      <li className='mb-3 d-flex gap-15 align-items-center'>
                          <AiOutlineHome className='fs-5'/>
-                         <address>
+                         <address className='mb-0'>
                             GS : 850 Near Yamuna River Front,
                             Noida, Uttar Pradesh
                             Pin Code: 131103
                           </address>
                          
                       </li>
-                      <li><BiPhoneCall className='fs-5'/></li>
-                      <li><AiOutlineMail className='fs-5'/></li>
-                      <li><BsInfoCircle className='fs-5'/></li>
+                      <li className='mb-3 d-flex gap-15 align-items-center'>
+                        <BiPhoneCall className='fs-5'/>
+                        <a href="tel:+91 9301763998">+91 9301763998</a>
+                      </li>
+                      <li className='mb-3 d-flex gap-15 align-items-center'>
+                        <AiOutlineMail className='fs-5'/>
+                        <a href="mailto:arjav@gmail.com">
+                          arjav@gmail.com
+                        </a>
+                      </li>
+                      <li className='mb-3 d-flex gap-15 align-items-center'>
+                        <BsInfoCircle className='fs-5'/>
+                        <p className='mb-0'>Monday - Friday 10 AM - 8 PM</p>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -68,3 +79,5 @@ const Contact = () => {
 }
 
 export default Contact
+
+
