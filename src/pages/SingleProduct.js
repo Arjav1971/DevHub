@@ -7,7 +7,8 @@ import ReactStars from "react-rating-stars-component";
 import ReactImageZoom from 'react-image-zoom';
 import Color from '../components/Color';
 import {TbGitCompare} from 'react-icons/tb';
-import {AiOutlineHeart} from 'react-icons/ai'
+import {AiOutlineHeart} from 'react-icons/ai';
+import Container from '../components/Container';
 const SingleProduct = () => {
   const imageSource ="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=wood-wristwatch-time-190819.jpg&fm=jpg"
   const props = {width: 400, height: 400, zoomWidth: 500, img:imageSource };
@@ -25,8 +26,8 @@ const SingleProduct = () => {
     <>
       <Meta title={"Product Name"}/>
       <BreadCrumb title="Product Name"/>
-      <div className='main-product-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+      <Container class1='main-product-wrapper py-5 home-wrapper-2'>
+
             <div className='row'>
                 <div className="col-6">
                   <div className='main-product-image'>
@@ -144,10 +145,10 @@ const SingleProduct = () => {
                 </div>
 
             </div>
-        </div>
-      </div>
-      <div className='description-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+  
+      </Container>
+      <Container class1='description-wrapper py-5 home-wrapper-2'>
+
           <div className='row'>
             <div className='col-12'>
               <h4>Description</h4>
@@ -164,10 +165,10 @@ const SingleProduct = () => {
 
             </div>
           </div>
-        </div>
-      </div>
-      <section className='reviews-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+
+      </Container>
+      <Container class1='reviews-wrapper py-5 home-wrapper-2'>
+
           <div className='row'>
             <div className='col-12'>
             <h4 id="review" >Reviews</h4>
@@ -244,9 +245,9 @@ const SingleProduct = () => {
 
             </div>
           </div>
-        </div>
-      </section>
-      <section className='featured-wrapper py-5 home-wrapper-2'>
+
+      </Container>
+      <Container class1='featured-wrapper py-5 home-wrapper-2'>
         <div className='container-xxl'>
           <div className='row'>
             <div className='col-12'>
@@ -266,7 +267,7 @@ const SingleProduct = () => {
             </div>
           </div>
         </div>
-      </section>
+      </Container>
       
     </>
   );

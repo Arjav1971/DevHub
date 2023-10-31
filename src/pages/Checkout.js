@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {BiArrowBack} from 'react-icons/bi';
 import watch from "../images/watch.jpg";
+import Container from '../components/Container';
 
 const Checkout = () => {
   return (
     <>
-     <div className='checkout-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+     <Container class1='checkout-wrapper py-5 home-wrapper-2'>
+
             <div className='row'>
                 <div className='col-7'>
                     <div className='checkout-left-data'>
@@ -122,8 +123,8 @@ const Checkout = () => {
                     </div> 
                 </div>
             </div>
-        </div>
-     </div> 
+
+     </Container> 
     </>
   )
 }
