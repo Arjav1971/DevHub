@@ -18,7 +18,7 @@ const ProductCard = (props) => {
 
   return (
     <>
-    <div className={` ${location.pathname=="/store" ? `gr-${grid}`:"col-3"}`}>
+    <div className={` ${location.pathname=="/product" ? `gr-${grid}`:"col-3"}`}>
         <Link to="product/:id" className="product-card position-relative">
             <div className="wishlist-icon position-absolute">
                 <button className='border-0 bg-transparent'><img src={wish} alt="wishlist"/></button >
@@ -33,11 +33,11 @@ const ProductCard = (props) => {
                     Kids headphones bulk 10 pack multi colored for students
                 </h5>
                 <ReactStars
-                countbutton 
-                size={24}
-                value='3'
-                edit={false}
-                activeColor="#ffd700"
+               count={5}
+               size={24}
+               value='3'
+               edit={false}
+               activeColor="#ffd700"
                 />
                 <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>At vero eos accumus et isusto odio
                 bla bla fjebhf fjhfef jfehffk jhwk olejedn dwtdd vhdfd jfbef
