@@ -16,7 +16,7 @@ function BlogCard() {
                 
                 </h5>
                 <p className='desc'>fbdjghufyegfujfgeuygfyhgvcvg fwugfjfwwgfwfjwbhfwgufb wjfgwfwfwghw gwfufjfb</p>
-                <Link to="/" className="button">
+                <Link to="/blog/:id" className="button">
                     Read More
                 </Link>
             </div>
