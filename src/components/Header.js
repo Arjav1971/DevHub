@@ -28,7 +28,7 @@ const Header = () => {
                     </h1>
                 </div>
                 <div className='col-5'>
-                    <div class="input-group">
+                    <div className="input-group">
                         <input type="text" className="form-control py-2" placeholder="Search Product Here..." aria-label="Search Product Here..." aria-describedby="basic-addon2"/>
                         <span className="input-group-text p-3" id="basic-addon2"><BsSearch className="fs-4"/></span>
                     </div>
@@ -81,7 +81,7 @@ const Header = () => {
                             <button className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                <img src="images/menu.svg"/> <span className="mes-5 d-inline-block">Shop Categories</span>
                             </button>
-                            <ul class="dropdown-menu">
+                            <ul className="dropdown-menu">
                                 <li><Link className="dropdown-item text-white" to="">Action</Link></li>
                                 <li><Link className="dropdown-item text-white" to="">Another action</Link></li>
                                 <li><Link className="dropdown-item text-white" to="">Something else here</Link></li>

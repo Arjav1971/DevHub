@@ -19,7 +19,8 @@ const ProductCard = (props) => {
   return (
     <>
     <div className={` ${location.pathname=="/product" ? `gr-${grid}`:"col-3"}`}>
-        <Link to={`${location.pathname=="/" ? "/product/:id" : location.pathname=="/product/:id" ?"/product/:id" :":id"}`} className="product-card position-relative">
+        {/* <Link to={`${location.pathname=="/" ? "/product/:id" : location.pathname=="/product/:id" ?"/product/:id" :":id"}`} className="product-card position-relative"> */}
+        <Link to=":id" className='product-card position-relative'>
             <div className="wishlist-icon position-absolute">
                 <button className='border-0 bg-transparent'><img src={wish} alt="wishlist"/></button >
             </div>
@@ -35,7 +36,7 @@ const ProductCard = (props) => {
                 <ReactStars
                 countbutton 
                 size={24}
-                value='3'
+                value={3}
                 edit={false}
                 activeColor="#ffd700"
                 />
@@ -61,7 +62,8 @@ const ProductCard = (props) => {
         </Link>
     </div>
     <div className={` ${location.pathname=="/product" ? `gr-${grid}`:"col-3"}`}>
-        <Link to={`${location.pathname=="/" ? "/product/:id" : location.pathname=="/product/:id" ?"/product/:id" :":id"}`} className="product-card position-relative">
+        {/* <Link to={`${location.pathname=="/" ? "/product/:id" : location.pathname=="/product/:id" ?"/product/:id" :":id"}`} className="product-card position-relative"> */}
+        <Link to=":id" className="product-card position-relative">
             <div className="wishlist-icon position-absolute">
                 <button className='border-0 bg-transparent'><img src={wish} alt="wishlist"/></button >
             </div>
@@ -77,7 +79,7 @@ const ProductCard = (props) => {
                 <ReactStars
                 count={5}
                 size={24}
-                value='3'
+                value={3}
                 edit={false}
                 activeColor="#ffd700"
                 />

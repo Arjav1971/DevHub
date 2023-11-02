@@ -45,7 +45,7 @@ const OurStore = () => {
                     </label>
                   </div>
                   <div className="form-check">
-                    <input className="form-check-input" type="checkbox" value="" id="" checked/>
+                    <input className="form-check-input" type="checkbox" value="" id="" />
                     <label className="form-check-label" htmlFor="">
                       Out of Stock(0)
                     </label>
@@ -119,7 +119,7 @@ const OurStore = () => {
                       <ReactStars
                       count={5}
                       size={24}
-                      value='3'
+                      value={3}
                       edit={false}
                       activeColor="#ffd700"
                       />
@@ -138,7 +138,7 @@ const OurStore = () => {
                       <ReactStars
                       count={5}
                       size={24}
-                      value='3'
+                      value={3}
                       edit={false}
                       activeColor="#ffd700"
                       />
